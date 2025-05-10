@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HermesChat", "HermesChat\HermesChat.csproj", "{DCAAD7D8-F68F-4AF7-8AC3-E125783C25FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HermesHub", "HermesHub", "{FAA5F233-EDF8-46C9-B6C1-2B2DD7AC6A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermesHub", "HermesHub\HermesHub\HermesHub.csproj", "{49ED4FD3-B158-4BED-AC9B-145C581CC6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermesHub.Android", "HermesHub\HermesHub.Android\HermesHub.Android.csproj", "{544D13A6-AC16-49C3-9A15-59397A6FDDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermesHub.Desktop", "HermesHub\HermesHub.Desktop\HermesHub.Desktop.csproj", "{15A672DF-E1CB-4CB7-A0C3-23D345D41B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermesHub.iOS", "HermesHub\HermesHub.iOS\HermesHub.iOS.csproj", "{EA591203-C825-42D7-A804-C99C9825D3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HermesHub.Browser", "HermesHub\HermesHub.Browser\HermesHub.Browser.csproj", "{B07A9962-A180-4A8B-B7BD-059CB698A7FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAAD7D8-F68F-4AF7-8AC3-E125783C25FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAAD7D8-F68F-4AF7-8AC3-E125783C25FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAAD7D8-F68F-4AF7-8AC3-E125783C25FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAAD7D8-F68F-4AF7-8AC3-E125783C25FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49ED4FD3-B158-4BED-AC9B-145C581CC6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49ED4FD3-B158-4BED-AC9B-145C581CC6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49ED4FD3-B158-4BED-AC9B-145C581CC6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49ED4FD3-B158-4BED-AC9B-145C581CC6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544D13A6-AC16-49C3-9A15-59397A6FDDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544D13A6-AC16-49C3-9A15-59397A6FDDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544D13A6-AC16-49C3-9A15-59397A6FDDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544D13A6-AC16-49C3-9A15-59397A6FDDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A672DF-E1CB-4CB7-A0C3-23D345D41B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A672DF-E1CB-4CB7-A0C3-23D345D41B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A672DF-E1CB-4CB7-A0C3-23D345D41B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A672DF-E1CB-4CB7-A0C3-23D345D41B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA591203-C825-42D7-A804-C99C9825D3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA591203-C825-42D7-A804-C99C9825D3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA591203-C825-42D7-A804-C99C9825D3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA591203-C825-42D7-A804-C99C9825D3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07A9962-A180-4A8B-B7BD-059CB698A7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07A9962-A180-4A8B-B7BD-059CB698A7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07A9962-A180-4A8B-B7BD-059CB698A7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07A9962-A180-4A8B-B7BD-059CB698A7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27CAB76B-4CB2-4FF7-A59E-7C7DB52AAE53}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49ED4FD3-B158-4BED-AC9B-145C581CC6AA} = {FAA5F233-EDF8-46C9-B6C1-2B2DD7AC6A56}
+		{544D13A6-AC16-49C3-9A15-59397A6FDDDB} = {FAA5F233-EDF8-46C9-B6C1-2B2DD7AC6A56}
+		{15A672DF-E1CB-4CB7-A0C3-23D345D41B00} = {FAA5F233-EDF8-46C9-B6C1-2B2DD7AC6A56}
+		{EA591203-C825-42D7-A804-C99C9825D3D3} = {FAA5F233-EDF8-46C9-B6C1-2B2DD7AC6A56}
+		{B07A9962-A180-4A8B-B7BD-059CB698A7FA} = {FAA5F233-EDF8-46C9-B6C1-2B2DD7AC6A56}
+	EndGlobalSection
+EndGlobal
